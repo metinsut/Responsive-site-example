@@ -1,0 +1,36 @@
+{
+  "name": "responsive-site",
+  "version": "1.0.0",
+  "description": "make a reponsive site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Metin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtnst/Responsive-site-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mtnst/Responsive-site-example/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "file-loader": "^0.11.2",
+    "flexboxgrid": "^6.3.1",
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0"
+  }
+}
